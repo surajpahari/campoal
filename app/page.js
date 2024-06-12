@@ -4,7 +4,7 @@ import LandingPage from "./LandingPage/page";
 export default function Home() {
   return (
     <>
-      <div className="bg-black-500">
+      <div className="bg-black-500 text-dark-blue">
         <LandingPage />
       </div>
     </>
