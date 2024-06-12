@@ -1,11 +1,11 @@
-import Image from "next/image";
 import IntroSection from "./LandingPage/components/IntroSection";
+import LandingPage from "./LandingPage/page";
 
 export default function Home() {
   return (
     <>
-      <div>
-        <IntroSection />
+      <div className="bg-black-500">
+        <LandingPage />
       </div>
     </>
   )
