@@ -3,10 +3,10 @@ const VisionSection = () => {
   return (
     <>
       <div className=" flex flex-col justify-center items-center bg-orange-ash">
-        <div className="text-[64px] text-dark-blue mb-4">
+        <div className="text-[64px] text-dark-blue mb-5">
           Our Vision
         </div>
-        <div className="text-faint-purple mb-4">
+        <div className="text-faint-purple mb-[113px]">
           Our vision is to be the best petition platform in the world.
         </div>
         <div>

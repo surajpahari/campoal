@@ -6,7 +6,7 @@ import VisionSection from "./components/VisionSection";
 import StatSection from "./components/StatSection";
 import TestimonialSection from "./components/TestimonialSection";
 import TeamSection from "./components/TeamSection";
-import TryNewSection from "./components/TryNewSection";
+import ContactSection from "./components/ContactSection";
 const { default: IntroSection } = require("./components/IntroSection");
 
 const LandingPage = () => {
@@ -14,10 +14,10 @@ const LandingPage = () => {
     <>
       <div className="bg-white">
         <IntroSection />
-        <div className="p-20">
+        <div className="flex items-center justify-center pt-[178px]">
           <PlatFormUserInfo />
         </div>
-        <div>
+        <div className="mt-[209px]">
           <VoiceSection />
         </div>
         <div>
@@ -26,22 +26,22 @@ const LandingPage = () => {
         <div>
           <OurStory />
         </div>
-        <div>
+        <div className="mt-[191px]">
           <VisionSection />
         </div>
-        <div>
+        <div className="mb-[180px]">
           <StatSection />
         </div>
-        <div>
+        <div className="mb-[223px]">
           <TestimonialSection />
         </div>
         <div>
           <TeamSection />
         </div>
         <div>
-          <TryNewSection />
+          <ContactSection />
         </div>
-      </div>
+      </div >
 
     </>
   );

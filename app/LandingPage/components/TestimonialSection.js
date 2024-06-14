@@ -3,7 +3,7 @@ const TestimonialUserCard = () => {
   return (
     <>
       <div className="flex">
-        <div className="rounded-full">
+        <div className="rounded-full mr-[18px]">
           <Image
             className="rounded-full"
             src="/images/testimonialuser.jpeg"
@@ -13,8 +13,8 @@ const TestimonialUserCard = () => {
         </div>
         <div className="flex items-center justify-center">
           <div>
-            <div> Jack  Burley</div>
-            <div>Graphic Designer</div>
+            <div className="text-[24px] font-[700]"> Jack  Burley</div>
+            <div className="text-[18px] font-[400]">Graphic Designer</div>
           </div>
         </div>
       </div>
@@ -24,21 +24,23 @@ const TestimonialUserCard = () => {
 const TestimonialSection = () => {
   return (
     <>
-      <div className="flex">
-        <div>
-          <Image
-            src="frames/testimonial-banner.svg"
-            width={800}
-            height={802}
-          />
-        </div>
-        <div className="flex items-center justify-center ">
-          <div>
-            <div className="bg-orange-ash">
-              I signed a petition about animals being left behind in BC`s recent floods. Who ever wrote and inset the picture for this narrative sure knows what pics to install to bring the response they want home. Keep up your good work, You do a lot for causes, which would go unaddressed. And forgotten, or just swept under the rug.
-            </div>
-            <div>
-              <TestimonialUserCard />
+      <div className="flex items-center justify-center">
+        <div className="flex max-w-[1128px]">
+          <div className="max-w-[510px] flex-grow">
+            <Image
+              src="frames/testimonial-banner.svg"
+              width={800}
+              height={802}
+            />
+          </div>
+          <div className="flex-grow items-center justify-center">
+            <div className="max-w-[565px]">
+              <div className="bg-orange-ash text-[24px] pt-[45px] pb-[31px] pl-[39px] pr-[49px] rounded-md">
+                I signed a petition about animals being left behind in BC`s recent floods. Who ever wrote and inset the picture for this narrative sure knows what pics to install to bring the response they want home. Keep up your good work, You do a lot for causes, which would go unaddressed. And forgotten, or just swept under the rug.
+              </div>
+              <div>
+                <TestimonialUserCard />
+              </div>
             </div>
           </div>
         </div>
