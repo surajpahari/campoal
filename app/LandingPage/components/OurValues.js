@@ -1,15 +1,17 @@
 const ValueCard = (CardData) => {
   return (
     <>
-      <div className="">
-        <div className="text-[64px] font-[700]">
-          {CardData.no}
-        </div>
-        <div className="text-[24px] font-[800] ">
-          {CardData.title}
-        </div>
-        <div className="max-w-[310px]">
-          {CardData.subtitle}
+      <div className="flex-grow">
+        <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
+          <div className="text-[32px] sm:text-[48px] md:text-[64px] font-[700]">
+            {CardData.no}
+          </div>
+          <div className="text-[16px] sm:text-[20px] md:text-[24px] font-[800]">
+            {CardData.title}
+          </div>
+          <div className="max-w-[310px] text-center md:text-left">
+            {CardData.subtitle}
+          </div>
         </div>
       </div>
     </>
@@ -38,16 +40,16 @@ const OurValues = () => {
   ]
   return (
     <>
-      <div className="flex justify-center bg-orange-ash">
-        <div className="text-light-purple max-w-[1131px]">
-          {/* <div> */}
-          {/*   our Values */}
-          {/* </div> */}
-          <div className="text-[64px] font-[700] mb-10">
+      <div className="bg-orange-ash py-10">
+        <div className="text-light-purple px-4 sm:px-10 md:px-40">
+          <div className="text-[32px] sm:text-[48px] md:text-[64px] font-[700] mb-5 sm:mb-8 md:mb-10 md:text-start text-center">
             Our values
           </div>
-          <div className="flex gap-[48px] flex-wrap">
-            {values.map((value) => ValueCard(value))}
+          <div className="flex flex-wrap gap-4 sm:gap-6 md:gap-[48px]">
+            {values.map((value) => (
+              ValueCard(value)
+
+            ))}
           </div>
         </div>
       </div>
