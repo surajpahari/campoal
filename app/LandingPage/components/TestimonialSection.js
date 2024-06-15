@@ -25,20 +25,22 @@ const TestimonialSection = () => {
   return (
     <>
       <div className="flex items-center justify-center">
-        <div className="flex max-w-[1128px]">
-          <div className="max-w-[510px] flex-grow">
-            <Image
-              src="frames/testimonial-banner.svg"
-              width={800}
-              height={802}
-            />
+        <div className="flex max-w-[1128px] gap-[50px] flex-wrap">
+          <div className="max-w-[510px] flex-grow flex justify-center items-center">
+            <div className="max-w-[510px]">
+              <Image
+                src="frames/testimonial-banner.svg"
+                width={800}
+                height={802}
+              />
+            </div>
           </div>
           <div className="flex-grow items-center justify-center">
             <div className="max-w-[565px]">
               <div className="bg-orange-ash text-[24px] pt-[45px] pb-[31px] pl-[39px] pr-[49px] rounded-md">
                 I signed a petition about animals being left behind in BC`s recent floods. Who ever wrote and inset the picture for this narrative sure knows what pics to install to bring the response they want home. Keep up your good work, You do a lot for causes, which would go unaddressed. And forgotten, or just swept under the rug.
               </div>
-              <div>
+              <div className="mt-[31px]">
                 <TestimonialUserCard />
               </div>
             </div>

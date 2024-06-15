@@ -13,6 +13,9 @@ module.exports = {
         'faint-purple': '#5F5F75',
         'light-purple': '#6059C9'
       },
+      fontFamily: {
+        'sen': ['Sen', 'sans-serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

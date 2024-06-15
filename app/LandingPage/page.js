@@ -14,33 +14,33 @@ const LandingPage = () => {
     <>
       <div className="bg-white">
         <IntroSection />
-        <div className="flex items-center justify-center pt-[178px]">
-          <PlatFormUserInfo />
-        </div>
-        <div className="mt-[209px]">
-          <VoiceSection />
-        </div>
-        <div>
-          <OurValues />
-        </div>
-        <div>
-          <OurStory />
-        </div>
-        <div className="mt-[191px]">
-          <VisionSection />
-        </div>
-        <div className="mb-[180px]">
-          <StatSection />
-        </div>
-        <div className="mb-[223px]">
-          <TestimonialSection />
-        </div>
-        <div>
-          <TeamSection />
-        </div>
-        <div>
-          <ContactSection />
-        </div>
+        {/* <div className="flex items-center justify-center pt-[178px]"> */}
+        {/*   <PlatFormUserInfo /> */}
+        {/* </div> */}
+        {/* <div className="mt-[209px]"> */}
+        {/*   <VoiceSection /> */}
+        {/* </div> */}
+        {/* <div> */}
+        {/*   <OurValues /> */}
+        {/* </div> */}
+        {/* <div className="mt-[186px]"> */}
+        {/*   <OurStory /> */}
+        {/* </div> */}
+        {/* <div className="mt-[191px]"> */}
+        {/*   <VisionSection /> */}
+        {/* </div> */}
+        {/* <div className="mb-[180px]"> */}
+        {/*   <StatSection /> */}
+        {/* </div> */}
+        {/* <div className="mb-[223px]"> */}
+        {/*   <TestimonialSection /> */}
+        {/* </div> */}
+        {/* <div> */}
+        {/*   <TeamSection /> */}
+        {/* </div> */}
+        {/* <div> */}
+        {/*   <ContactSection /> */}
+        {/* </div> */}
       </div >
 
     </>

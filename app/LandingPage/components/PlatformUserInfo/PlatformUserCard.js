@@ -12,7 +12,7 @@ const PlatFormUserCard = (CardData) => {
             />
           </div>
         </div>
-        <div className="text-[24px] text-[700] pb-3">
+        <div className="text-[24px] font-[700] pb-3">
           {CardData.group}
         </div>
         <div className="text-center max-w-[227px] text-[14px]">

@@ -26,7 +26,7 @@ const PlatFormUserInfo = () => {
   return (
     <>
       <div className="flex  flex-wrap bg-white p-2  gap-10 justify-center items-center">
-        <div>
+        <div classsName="">
           <div className="text-faint-purple mb-4">
             Who use platform?
           </div>

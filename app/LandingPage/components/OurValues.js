@@ -8,7 +8,7 @@ const ValueCard = (CardData) => {
         <div className="text-[24px] font-[800] ">
           {CardData.title}
         </div>
-        <div className="">
+        <div className="max-w-[310px]">
           {CardData.subtitle}
         </div>
       </div>
@@ -39,14 +39,14 @@ const OurValues = () => {
   return (
     <>
       <div className="flex justify-center bg-orange-ash">
-        <div className="text-light-purple h-96 max-w-[1131px]">
+        <div className="text-light-purple max-w-[1131px]">
           {/* <div> */}
           {/*   our Values */}
           {/* </div> */}
           <div className="text-[64px] font-[700] mb-10">
             Our values
           </div>
-          <div className="flex">
+          <div className="flex gap-[48px] flex-wrap">
             {values.map((value) => ValueCard(value))}
           </div>
         </div>

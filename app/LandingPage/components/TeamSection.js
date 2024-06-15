@@ -4,21 +4,23 @@ const TeamCard = (Team) => {
     <div>
       <div>
         <Image
-          className="rounded-md"
+          className="rounded-md h-full w-full aspect-square"
           src={Team.image}
-          width={200}
-          height={300}
+          width={235}
+          height={273}
         />
       </div>
-      <div className="flex flex-col justiy-center items-center -translate-y-1/2 bg-white rounded-md">
-        <div>
-          {Team.name}
-        </div>
-        <div>
-          {Team.role}
+      <div className="flex justify-center items-center -translate-y-1/2 ">
+        <div className="w-[190px] bg-white rounded-md pt-[17px]">
+          <div className="text-center font-bold text-[18px]">
+            {Team.name}
+          </div>
+          <div className="text-center text-[14px] text-faint-purple">
+            {Team.role}
+          </div>
         </div>
       </div>
-    </div>
+    </div >
 
   </>
 
@@ -47,7 +49,7 @@ const TeamSection = () => {
   ]
   return (
     <>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center flex-wrap">
         <div className="min-w-[375px]">
           <div className="text-[64px] font-[700] ">
             Our Team
@@ -62,7 +64,7 @@ const TeamSection = () => {
           </div>
         </div>
         <div>
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap justify-center items-center">
             {teams.map((team) =>
               TeamCard(team)
             )}

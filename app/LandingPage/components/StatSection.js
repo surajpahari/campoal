@@ -1,7 +1,7 @@
 const StatSection = () => {
   return (
     <>
-      <div className="flex bg-light-purple text-white justify-center items-center gap-20 p-[63px]">
+      <div className="flex flex-wrap bg-light-purple text-white justify-center items-center gap-20 p-[63px]">
         <div>
           <div className="text-[72px] pb-1 pt-2">
             20,000

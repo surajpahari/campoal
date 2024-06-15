@@ -6,7 +6,7 @@ const VisionSection = () => {
         <div className="text-[64px] text-dark-blue mb-5">
           Our Vision
         </div>
-        <div className="text-faint-purple mb-[113px]">
+        <div className="text-faint-purple mb-[113px] text-center">
           Our vision is to be the best petition platform in the world.
         </div>
         <div>
@@ -14,7 +14,6 @@ const VisionSection = () => {
             src="frames/vision-banner.svg"
             width={771}
             height={540}
-
           />
         </div>
       </div>
