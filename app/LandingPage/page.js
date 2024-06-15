@@ -1,4 +1,4 @@
-import PlatFormUserInfo from "./components/PlatformUserInfo/PlatformUserInfo";
+import PlatFormUserInfo from "./components/PlatformUserInfo";
 import VoiceSection from "./components/VoiceSection";
 import OurValues from "./components/OurValues";
 import OurStory from "./components/OurStory";
@@ -14,9 +14,9 @@ const LandingPage = () => {
     <>
       <div className="bg-white">
         <IntroSection />
-        {/* <div className="flex items-center justify-center pt-[178px]"> */}
-        {/*   <PlatFormUserInfo /> */}
-        {/* </div> */}
+        <div className="flex items-center justify-center pt-[178px]">
+          <PlatFormUserInfo />
+        </div>
         {/* <div className="mt-[209px]"> */}
         {/*   <VoiceSection /> */}
         {/* </div> */}
