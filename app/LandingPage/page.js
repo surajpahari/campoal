@@ -17,12 +17,12 @@ const LandingPage = () => {
         <div className="flex items-center justify-center pt-[178px]">
           <PlatFormUserInfo />
         </div>
-        {/* <div className="mt-[209px]"> */}
-        {/*   <VoiceSection /> */}
-        {/* </div> */}
-        {/* <div> */}
-        {/*   <OurValues /> */}
-        {/* </div> */}
+        <div className="mt-[200px]">
+          <VoiceSection />
+        </div>
+        <div className="mt-[113px]">
+          <OurValues />
+        </div>
         {/* <div className="mt-[186px]"> */}
         {/*   <OurStory /> */}
         {/* </div> */}

@@ -64,24 +64,5 @@ const PlatFormUserInfo = () => {
       </div>
     </div>
   );
-  // return (
-  //   <>
-  //     <div className="flex  flex-wrap bg-white p-2  gap-10 justify-center items-center">
-  //       <div classsName="">
-  //         <div className="text-faint-purple mb-4">
-  //           Who use platform?
-  //         </div>
-  //         <div className="text-dark-blue text-[48px] font-bold max-w-[414px]">
-  //           We believe that when everyone speaks out the problem of society and action together, the world will become a better place.
-  //         </div>
-  //       </div>
-  //       <div className="flex gap-2">
-  //         <div className="flex  flex-wrap items-center justify-center gap-2 max-w-[550px]">
-  //           {platformData.map((platform) => PlatFormUserCard(platform))}
-  //         </div>
-  //       </div>
-  //     </div>
-  //   </>
-  // )
 }
 export default PlatFormUserInfo
