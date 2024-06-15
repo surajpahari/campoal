@@ -23,9 +23,9 @@ const LandingPage = () => {
         <div className="mt-[113px]">
           <OurValues />
         </div>
-        {/* <div className="mt-[186px]"> */}
-        {/*   <OurStory /> */}
-        {/* </div> */}
+        <div className="mt-[186px]">
+          <OurStory />
+        </div>
         {/* <div className="mt-[191px]"> */}
         {/*   <VisionSection /> */}
         {/* </div> */}
