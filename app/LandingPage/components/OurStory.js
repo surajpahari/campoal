@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const OurStory = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-10 min-h-fit p-5 md:p-10 lg:p-20">
-      <div className="w-full max-w-7xl">
-        <div className="flex flex-col justify-center items-center md:flex-row md:justify-start md:items-start">
+    <div className="flex flex-col justify-center items-center gap-10 min-h-fit md:px-40 sm:px-10">
+      <div className="">
+        <div className="flex flex-col justify-center items-center md:flex-row md:justify-start flex-wrap md:items-start">
           <div className="flex-1">
             <div className="text-center md:text-start text-4xl md:text-5xl lg:text-6xl text-dark-blue mb-6 md:mb-8 lg:mb-10 font-bold">
               Our Story
             </div>
-            <div className="text-faint-purple text-sm md:text-base lg:text-lg space-y-4 md:space-y-6 lg:space-y-8 leading-relaxed">
+            <div className="min-w-[400px] text-faint-purple text-sm md:text-base lg:text-lg space-y-4 md:space-y-6 lg:space-y-8 leading-relaxed pl-1">
               <p>
                 April 2016 when I was working part-time at a travel agency.
                 At that time, there was an environmental problem in my country that made many people angry and they created a petition on Change dot org and shared it on Facebook. I am very interested in the idea of ​​this website, it is really helpful and it has a strong life impact. I wonder why there is not such a website in my country? I think every country should have such a website and the world should have more than one in the community. So I decided to quit my part-time job and start developing a platform for social movements.

@@ -25,7 +25,9 @@ const TestimonialSection = () => {
   return (
     <>
       <div className="flex items-center justify-center">
-        <div className="flex max-w-[1128px] gap-[50px] flex-wrap">
+
+
+        <div className="flex flex-col md:flex-row md:px-40 sm:px-10 gap-[50px]">
           <div className="max-w-[510px] flex-grow flex justify-center items-center">
             <div className="max-w-[510px]">
               <Image

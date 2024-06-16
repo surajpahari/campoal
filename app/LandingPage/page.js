@@ -26,21 +26,21 @@ const LandingPage = () => {
         <div className="mt-[186px]">
           <OurStory />
         </div>
-        {/* <div className="mt-[191px]"> */}
-        {/*   <VisionSection /> */}
-        {/* </div> */}
-        {/* <div className="mb-[180px]"> */}
-        {/*   <StatSection /> */}
-        {/* </div> */}
-        {/* <div className="mb-[223px]"> */}
-        {/*   <TestimonialSection /> */}
-        {/* </div> */}
-        {/* <div> */}
-        {/*   <TeamSection /> */}
-        {/* </div> */}
-        {/* <div> */}
-        {/*   <ContactSection /> */}
-        {/* </div> */}
+        <div className="mt-[160px]">
+          <VisionSection />
+        </div>
+        <div className="mb-[180px]">
+          <StatSection />
+        </div>
+        <div className="mb-[223px]">
+          <TestimonialSection />
+        </div>
+        <div className="mb-[120px]">
+          <TeamSection />
+        </div>
+        <div className="mb-[100px]">
+          <ContactSection />
+        </div>
       </div >
 
     </>

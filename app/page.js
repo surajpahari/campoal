@@ -1,4 +1,3 @@
-import IntroSection from "./LandingPage/components/IntroSection";
 import LandingPage from "./LandingPage/page";
 
 export default function Home() {

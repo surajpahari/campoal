@@ -1,15 +1,18 @@
 const ValueCard = (CardData) => {
   return (
+
     <>
-      <div className="">
-        <div className="text-[64px] font-[700]">
-          {CardData.no}
-        </div>
-        <div className="text-[24px] font-[800] ">
-          {CardData.title}
-        </div>
-        <div className="max-w-[310px]">
-          {CardData.subtitle}
+      <div className="flex-grow">
+        <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
+          <div className="text-[32px] sm:text-[48px] md:text-[64px] font-[700]">
+            {CardData.no}
+          </div>
+          <div className="text-[16px] sm:text-[20px] md:text-[24px] font-[800]">
+            {CardData.title}
+          </div>
+          <div className="max-w-[310px] text-center md:text-left">
+            {CardData.subtitle}
+          </div>
         </div>
       </div>
     </>
@@ -39,7 +42,7 @@ const OurValues = () => {
   return (
     <>
       <div className="flex justify-center bg-orange-ash">
-        <div className="text-light-purple max-w-[1131px]">
+        <div className="text-light-purple md:px-40 sm:px-10">
           {/* <div> */}
           {/*   our Values */}
           {/* </div> */}
