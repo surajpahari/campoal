@@ -3,7 +3,7 @@ const VisionSection = () => {
   return (
     <>
       <div className=" flex flex-col justify-center items-center bg-orange-ash">
-        <div className="text-[64px] font-[700] text-dark-blue mb-5">
+        <div className="text-[64px] font-[700] text-dark-blue mb-5 pt-[109px] text-center">
           Our Vision
         </div>
         <div className="text-faint-purple mb-[113px] text-center">

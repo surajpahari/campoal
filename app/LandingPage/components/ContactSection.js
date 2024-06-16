@@ -1,13 +1,12 @@
 const ContactSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-light-purple pt-[52px] pb-[100px]">
-      <div className="text-white text-[48px] font-[800] text-center py-[13px] w-full mb-[54px]">
+    <div className="flex flex-col items-center justify-center pt-[52px] pb-[100px] bg-blue-wave bg-no-repeat p-6">
+      <div className="text-white p-2 text-[48px] font-[800] text-center py-[13px] w-full mb-[54px]">
         Feel free to contact us.
         <br />
         We'll be glad to hear form you.
       </div>
-
-      <div className="bg-white p-6 rounded-lg max-w-[746px]  py-[13px] w-full flex flex-col items">
+      <div className="bg-white p-2 rounded-lg max-w-[746px]  py-[13px] w-full flex flex-col items shadow-lg">
         <div className="my-2 max-w-638px">
           <div className="py-[13px] w-full text-[18px] font-[700]">
             Your name

@@ -2,12 +2,12 @@ const ValueCard = (CardData) => {
   return (
 
     <>
-      <div className="flex-grow">
+      <div className="">
         <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
           <div className="text-[32px] sm:text-[48px] md:text-[64px] font-[700]">
             {CardData.no}
           </div>
-          <div className="text-[16px] sm:text-[20px] md:text-[24px] font-[800]">
+          <div className="text-[16px] sm:text-[20px] md:text-[24px] font-[800] tracking-tight">
             {CardData.title}
           </div>
           <div className="max-w-[310px] text-center md:text-left">
@@ -41,15 +41,12 @@ const OurValues = () => {
   ]
   return (
     <>
-      <div className="flex justify-center bg-orange-ash">
-        <div className="text-light-purple md:px-40 sm:px-10">
-          {/* <div> */}
-          {/*   our Values */}
-          {/* </div> */}
+      <div className="flex justify-center bg-light_wave pt-[120px] pb-24 bg-no-repeat bg-cover">
+        <div className="text-light-purple px-4 md:px-40 sm:px-10">
           <div className="text-[64px] font-[700] mb-10">
             Our values
           </div>
-          <div className="flex gap-[48px] flex-wrap">
+          <div className="flex  flex-col snb:flex-row justify-between gap-8">
             {values.map((value) => ValueCard(value))}
           </div>
         </div>

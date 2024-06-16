@@ -20,7 +20,7 @@ const LandingPage = () => {
         <div className="mt-[200px]">
           <VoiceSection />
         </div>
-        <div className="mt-[113px]">
+        <div className="mt-[0px]">
           <OurValues />
         </div>
         <div className="mt-[186px]">
@@ -32,13 +32,13 @@ const LandingPage = () => {
         <div className="mb-[180px]">
           <StatSection />
         </div>
-        <div className="mb-[223px]">
-          <TestimonialSection />
-        </div>
+        {/* <div className="mb-[223px]"> */}
+        {/*   <TestimonialSection /> */}
+        {/* </div> */}
         <div className="mb-[120px]">
           <TeamSection />
         </div>
-        <div className="">
+        <div className="mb-[]">
           <ContactSection />
         </div>
       </div >

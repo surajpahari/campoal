@@ -13,7 +13,7 @@ module.exports = {
         "snb": '850px',
 
         "mft": '1310px',
-        "sft":'650px'
+        "sft": '650px'
       },
       colors: {
         'dark-blue': '#2B2B39',
@@ -30,6 +30,8 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "blue-wave": "url('/backgrounds/contact_background.png')",
+        "light_wave": "url('/backgrounds/about_us_background.png')"
       },
     },
   },

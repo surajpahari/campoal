@@ -1,3 +1,6 @@
+"use client";
+import { useEffect, useState } from "react";
+
 const Hamburger = () => {
   return (
     <>
@@ -12,72 +15,63 @@ const Hamburger = () => {
 const SideNav = () => {
   return (
     <>
-      <div className="max-w-[500px] rounded-md">
-        <div className=" w-full rounded-lg flex flex-col items-center bg-white text-dark-blue text-[18px] font-[700]">
-          <div className="mb-6">
-            <input palceholder="Search" className="max-w-[500px] p-2 size-lg border rounded-xl outline-light-purple" />
-            <img
-              className="inline ml-2"
-              src="/icons/search.svg" />
-          </div>
-          <div className="block snb:hidden px-6 pt-2.5 pb-[9px] bg-light-purple rounded-xl text-white text-[16px] mb-4">
-            <img className="inline mr-2" src="/icons/edit.svg" />
-            <span>
-              Start a Campaigns
-            </span>
-          </div>
-          <div className="flex snb:hidden items-center text-white text-[16px] mb-4">
-            <div className="pr-6 pl-[31px] pt-2.5 pb-[9px] bg-dark-yellow rounded-l-xl">
-              <div>
-                <span>Signup</span>
+      <div className="flex h-full">
+        <div className="max-w-[500px] rounded-md h-full">
+          <div className=" p-4 w-full h-full rounded-lg flex flex-col items-center bg-white text-dark-blue text-[18px] font-[700]">
+            <div className="mb-6">
+              <input placeholder="Search" className="max-w-[500px] placeholder-faint-purple p-2 size-lg border-2 rounded-xl outline-light-purple" />
+              <img
+                className="inline ml-2"
+                src="/icons/search.svg" />
+            </div>
+            <div className="block snb:hidden px-6 pt-2.5 pb-[9px] bg-light-purple rounded-xl text-white text-[16px] mb-4">
+              <img className="inline mr-2" src="/icons/edit.svg" />
+              <span>
+                Start a Campaigns
+              </span>
+            </div>
+            <div className="flex snb:hidden items-center text-white text-[16px] mb-4">
+              <div className="pr-6 pl-[31px] pt-2.5 pb-[9px] bg-dark-yellow rounded-l-xl">
+                <div>
+                  <span>Signup</span>
+                </div>
+              </div>
+
+              <div className="pr-6 pl-[31px] pt-2.5 pb-[9px] bg-light-purple rounded-r-xl">
+                Login
               </div>
             </div>
-
-            <div className="pr-6 pl-[31px] pt-2.5 pb-[9px] bg-light-purple rounded-r-xl">
-              Login
+            <div className=" justify-center mb-4 border-b-1 flex w-full">
+              <div>
+                Campaigns
+              </div>
+            </div>
+            <div className=" justify-center mb-4 border-b-1 flex w-full">
+              <div>
+                Fundraiser
+              </div>
+            </div>
+            <div className=" justify-center mb-4 border-b-1 flex w-full">
+              <div>
+                Membership
+              </div>
+            </div>
+            <div className=" justify-center mb-4 border-b-1 flex w-full">
+              <div>
+                About
+              </div>
+            </div>
+            <div className=" justify-center mb-4 border-b-1 flex w-full">
+              <div>
+                Contact
+              </div>
+            </div>
+            <div className=" justify-center mb-4 border-b-1 flex w-full">
+              <div>
+                Blogs
+              </div>
             </div>
           </div>
-          <div className=" justify-center mb-4 border-b-1 flex w-full">
-            <div>
-              Campaigns
-            </div>
-          </div>
-          <div className=" justify-center mb-4 border-b-1 flex w-full">
-            <div>
-              Fundraiser
-            </div>
-          </div>
-          <div className=" justify-center mb-4 border-b-1 flex w-full">
-            <div>
-              Membership
-            </div>
-          </div>
-          <div className=" justify-center mb-4 border-b-1 flex w-full">
-            <div>
-              About
-            </div>
-          </div>
-          <div className=" justify-center mb-4 border-b-1 flex w-full">
-            <div>
-              Contact
-            </div>
-          </div>
-          <div className=" justify-center mb-4 border-b-1 flex w-full">
-            <div>
-              Blogs
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </>
@@ -85,14 +79,37 @@ const SideNav = () => {
 
 }
 const Navbar = () => {
+
+  const [view, setView] = useState(false);
+  useEffect(() => {
+    if (view) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [view]);
   return (
     <>
-      <div className="absolute mnb:hidden w-full top-[70px] left-0">
-        <SideNav />
+
+      <div className={`absolute ${view ? 'block' : 'hidden'} mnb:hidden w-full top-[70px] left-0 h-svh`}>
+        <div
+          onClick={() => {
+            setView(false)
+          }}
+          className={`absolute ${view ? 'block' : 'hidden'} z-0 mnb:hidden w-full h-full bg-red-500 bg-opacity-20 left-0`}>
+        </div>
+        <div className="z-10 absolute h-full">
+          <SideNav />
+        </div>
       </div>
-      <div className=" w-full flex bg-white items-center gap-[31px] pr-[14px] pl-[11px] py-[15px]">
+      <div className=" w-full flex bg-white items-center gap-[31px] pr-[4px] pl-[5px] py-[15px]">
         <div className="flex items-center flex-grow gap-8">
-          <div className="block mnb:hidden">
+          <div className="block mnb:hidden" onClick={() => {
+            setView(!view)
+          }}>
             <Hamburger />
           </div>
           <div className="gap-8">
@@ -114,7 +131,6 @@ const Navbar = () => {
               src="/icons/search.svg" />
             <span>Search</span>
           </div>
-
           <div>
             Campaigns
           </div>
