@@ -1,80 +1,76 @@
 import Image from "next/image";
 const Footer = () => {
   return (
-    <div className="w-full pt-16 md:px-40 sm:px:10 pb-8">
+    <div className="w-full pt-32 md:px-40 sm:px:10 pb-8 px-2 bg-light-brown">
       <div className="w-full  flex-col">
         <div className="w-full ">
-          <div className="flex w-full mb-[75px]">
-            <div className=" max-w-[600px] ">
-              <div className="mb-8">
-                What is campoal?
-              </div>
-              <div className="mb-8">
-                Campoal is a completed WordPress theme used to create Petition Platform, Foundation and Non-profit website where anyone can be start a social movement, collect supporters and fundraising to change something in society.
-              </div>
-              <div className="flex gap-4">
-                <div>
-                  <div className="">
+          <div className="flex flex-wrap mb-[75px]">
+            <div className="flex items-center justify-center flex-grow">
+              <div className="flex-col items-center max-w-[500px] mft:mb-0 mb-10">
+                <div className="mb-8 text-center mft:text-start text-[16px] font-[700]">
+                  What is campoal?
+                </div>
+                <div className="mb-8">
+                  Campoal is a completed WordPress theme used to create Petition Platform, Foundation and Non-profit website where anyone can be start a social movement, collect supporters and fundraising to change something in society.
+                </div>
+                <div className="flex items-center justify-center mft:items-start mft:justify-start gap-4">
+                  <div>
                     <img
                       src="/footers/footer1.svg"
                     />
                   </div>
+                  <div>
+                    <img
+                      src="/footers/stripe.svg"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="/footers/paypal.svg"
+                    />
+                  </div>
+                  <div>
+                    <img
+                      src="/footers/norton.svg"
+                    />
+                  </div>
                 </div>
-                <div>
-                  <img
-                    src="/footers/stripe.svg"
-                  />
-                </div>
-                <div>
-                  <img
-                    src="/footers/paypal.svg"
-                  />
-
-                </div>
-                <div>
-                  <img
-                    src="/footers/norton.svg"
-                  />
-                </div>
-
               </div>
-
             </div>
-            <div className="flex justify-evenly flex-grow">
-              <div className=" ">
-                <div className="">
+            <div></div>
+            <div className="flex  flex-col items-center justify-center sft:flex-wrap  sft:flex-row sft:justify-evenly flex-grow">
+
+              <div className="mb-8 sft:mb-0">
+                <div className="text-[16px] font-[700] mb-2 sft:mb-8 text-center sft:text-start">
+                  Company
+                </div>
+                <div className="flex flex-col items-center justify-center sft:block">
                   <div>
-                    Company
+                    About
                   </div>
                   <div>
-                    <div>
-                      About
-                    </div>
-                    <div>
-                      Contact
-                    </div>
-                    <div>
-                      Careers
-                    </div>
-                    <div>
-                      Impact
-                    </div>
-                    <div>
-
-                      Testimonials
-                    </div>
-                    <div>
-                      Team members
-                    </div>
+                    Contact
+                  </div>
+                  <div>
+                    Careers
+                  </div>
+                  <div>
+                    Impact
+                  </div>
+                  <div>
+                    Testimonials
+                  </div>
+                  <div>
+                    Team members
                   </div>
                 </div>
-
               </div>
-              <div className="">
-                <div>
-                  <div>
-                    Resources
-                  </div>
+
+              <div className="mb-8 sft:mb-0">
+                <div className="text-[16px] font-[700] mb-2 sft:mb-8 text-center sft:text-start">
+                  Resources
+                </div>
+                <div className="flex flex-col items-center justify-center sft:block">
                   <div>
                     Guide
                   </div>
@@ -93,12 +89,14 @@ const Footer = () => {
                   <div>
                     Terms of service
                   </div>
-
                 </div>
               </div>
-              <div className="  ">
-                <div>
+
+              <div className="mt-8 sft:mt-0">
+                <div className="text-[16px] font-[700] mb-2 sft:mb-8">
                   Community
+                </div>
+                <div className="flex flex-col items-center justify-center sft:block">
                   <div>
                     Shop
                   </div>
@@ -122,50 +120,64 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex  w-full">
-          <div className="flex-grow h-10  flex items-center">
+
+
+        <div className="flex-col flex  w-full items-center justify-center mft:flex-row mft:items-start mft:justify-start">
+          <div className="flex-grow items-center justify-center mb-4 mft:mb-0 mft:justify-start">
             <div>
               © Campoal. Powered by Conikal LLC
             </div>
           </div>
-          <div className=" flex h-10 gap-4 items-center">
+          <div className=" flex gap-4 items-center">
             <div>
-              <Image
-                src="/socials/X.svg"
-                height={28}
-                width={28}
-                alt="footer 1"
-              />
-            </div>
 
-            <div>
-              <Image
-                src="/socials/facebook.svg"
-                height={28}
-                width={28}
-                alt="paypal"
-              />
+              <a className="cursor-pointer" href="https://www.facebook.com/" target="_blank">
+                <Image
+                  src="/socials/facebook.svg"
+                  height={28}
+                  width={28}
+                  alt="facebook"
+                />
+              </a>
             </div>
             <div>
-              <Image
-                src="/socials/medium.svg"
-                height={28}
-                width={28}
-                alt="stripe"
-              />
+
+              <a className="cursor-pointer" href="https://www.x.com/" target="_blank">
+                <Image
+                  src="/socials/X.svg"
+                  height={28}
+                  width={28}
+                  alt="X"
+                />
+              </a>
             </div>
             <div>
-              <Image
-                src="/socials/youtube.svg"
-                height={28}
-                width={28}
-                alt="stripe"
-              />
+
+              <a className="cursor-pointer" href="https://www.medium.com/" target="_blank">
+                <Image
+                  src="/socials/medium.svg"
+                  height={28}
+                  width={28}
+                  alt="medium"
+                />
+              </a>
+            </div>
+            <div>
+
+              <a className="cursor-pointer" href="https://www.youtube.com/" target="_blank">
+                <Image
+                  src="/socials/youtube.svg"
+                  height={28}
+                  width={28}
+                  alt="youtbue"
+                />
+              </a>
             </div>
           </div>
-
         </div>
       </div>
+
+
     </div >
   );
 }

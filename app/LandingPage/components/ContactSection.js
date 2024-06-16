@@ -1,6 +1,6 @@
 const ContactSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-light-purple pt-[52px]">
+    <div className="flex flex-col items-center justify-center bg-light-purple pt-[52px] pb-[100px]">
       <div className="text-white text-[48px] font-[800] text-center py-[13px] w-full mb-[54px]">
         Feel free to contact us.
         <br />

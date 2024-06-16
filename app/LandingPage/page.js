@@ -38,7 +38,7 @@ const LandingPage = () => {
         <div className="mb-[120px]">
           <TeamSection />
         </div>
-        <div className="mb-[100px]">
+        <div className="">
           <ContactSection />
         </div>
       </div >
