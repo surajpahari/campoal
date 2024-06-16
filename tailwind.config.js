@@ -7,11 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        //navbar breaking points
+        "mnb": '1353px',
+        "snb": '850px',
+      },
       colors: {
         'dark-blue': '#2B2B39',
         'orange-ash': '#F5EFE0',
         'faint-purple': '#5F5F75',
-        'light-purple': '#6059C9'
+        'light-purple': '#6059C9',
+        'dark-yellow': '#FFC20E',
+
       },
       fontFamily: {
         'sen': ['Sen', 'sans-serif'],

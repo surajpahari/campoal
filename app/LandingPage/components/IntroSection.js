@@ -1,7 +1,7 @@
 import Image from "next/image";
 const IntroSection = () => {
   return (
-    <div className="bg-orange-ash flex flex-col justify-center items-center py-6">
+    <div className="bg-orange-ash flex flex-col justify-center items-center py-6 pt-[109px]">
       <div className="px-2 sm:px-4 md:px-6 text-dark-blue text-center font-bold">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl md:leading-[86px]">
           World's Petition Platform
