@@ -11,8 +11,8 @@ const TeamCard = (Team) => {
           alt={Team.role}
         />
       </div>
-      <div className="flex justify-center items-center -translate-y-1/2 ">
-        <div className="w-[190px] bg-white rounded-md pt-[17px]">
+      <div className="flex justify-center items-center -translate-y-1/2">
+        <div className="w-[190px] bg-white rounded-xl py-[16px] shadow-md">
           <div className="text-center font-bold text-[18px]">
             {Team.name}
           </div>

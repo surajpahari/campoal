@@ -30,11 +30,11 @@ const OurStory = () => {
             </div>
           </div>
           <div className="flex flex-col mnb:w-auto w-full items-center justify-center md:flex-row md:ml-10 mt-10 md:mt-0">
-            <div className="flex flex-col space-y-6 md:space-y-0 md:mr-6">
+            <div className="flex flex-col space-y-6 md:space-y-0 md:mr-6 mb-10 smb:mb-0">
               <div className="mb-6 min-w-[270px]">
                 <Image
                   className="rounded-md"
-                  src="/images/service1.jpeg"
+                  src="/images/service1.svg"
                   width={270}
                   height={405}
                   alt="Service 1"
@@ -43,7 +43,7 @@ const OurStory = () => {
               <div className="min-w-[270px]">
                 <Image
                   className="rounded-md"
-                  src="/images/service3.jpeg"
+                  src="/images/service3.svg"
                   width={270}
                   height={270}
                   alt="Service 3"
@@ -51,11 +51,11 @@ const OurStory = () => {
               </div>
 
             </div>
-            <div className="flex flex-col space-y-6 md:space-y-0 mnb:translate-y-1/2 min-[1735px]:translate-y-0">
+            <div className="flex flex-col space-y-6 md:space-y-0 mnb:translate-y-1/4 min-[1735px]:translate-y-0">
               <div className="mb-6 min-w-[270px]">
                 <Image
                   className="rounded-md"
-                  src="/images/service2.jpeg"
+                  src="/images/service2.svg"
                   width={270}
                   height={405}
                   alt="Service 2"
@@ -64,7 +64,7 @@ const OurStory = () => {
               <div className="min-w-[270px]">
                 <Image
                   className="rounded-md"
-                  src="/images/service4.jpeg"
+                  src="/images/service4.svg"
                   width={270}
                   height={270}
                   alt="Service 4"

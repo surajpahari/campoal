@@ -29,7 +29,7 @@ const LandingPage = () => {
         <div className="mt-[160px]">
           <VisionSection />
         </div>
-        <div className="mb-[180px]">
+        <div className="mb-[130px]">
           <StatSection />
         </div>
         {/* <div className="mb-[223px]"> */}

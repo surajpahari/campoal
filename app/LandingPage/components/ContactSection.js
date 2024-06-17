@@ -1,12 +1,12 @@
 const ContactSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center pt-[52px] pb-[100px] bg-blue-wave bg-no-repeat p-6 min-[1350px]:bg-cover">
-      <div className="text-white p-2 text-[48px] font-[800] text-center py-[13px] w-full mb-[54px]">
+    <div className="flex flex-col items-center justify-center pt-[52px] pb-[100px] bg-blue-wave bg-repeat-x p-6 ">
+      <div className="text-white p-2 text-[48px] font-[700] text-center py-[13px] w-full mb-[54px]">
         Feel free to contact us.
         <br />
         We'll be glad to hear form you.
       </div>
-      <div className="bg-white p-2 rounded-lg max-w-[746px]  py-[13px] w-full flex flex-col items shadow-lg">
+      <div className="bg-white p-8 rounded-lg max-w-[746px]  py-[13px] w-full flex flex-col items shadow-lg">
         <div className="my-2 max-w-638px">
           <div className="py-[13px] w-full text-[18px] font-[700]">
             Your name
@@ -48,7 +48,7 @@ const ContactSection = () => {
             Message
           </div>
           <div>
-            <input className="py-[13px] w-full border border-1 rounded-lg p-1 outline-none" />
+            <textarea className="h-32 py-[13px] w-full border border-1 rounded-lg p-1 outline-none" />
           </div>
         </div>
 

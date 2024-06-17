@@ -5,12 +5,15 @@ const PlatFormUserCard = (CardData) => {
       <div className="flex flex-col bg-light-purple pb-[29px] pt-[54px] px-[21px] rounded-xl items-center justify-center text-white max-w-[270px] hover:shadow-xl hover:translate-y-[2px]">
         <div className="mb-6">
           <div className="flex items-center justify-center bg-white rounded-full h-20 w-20">
-            <Image
-              src={CardData.icon}
-              height={48}
-              width={48}
-              alt={CardData.group}
-            />
+            <div className="h-12 w-12">
+              <Image
+                className="h-full w-full"
+                src={CardData.icon}
+                height={48}
+                width={48}
+                alt={CardData.group}
+              />
+            </div>
           </div>
         </div>
         <div className="text-[24px] font-[700] pb-3">

@@ -123,8 +123,8 @@ const Navbar = () => {
           <SideNav pathname={pathname} />
         </div>
       </div>
-      <div className=" w-full flex bg-white items-center gap-[31px] pr-[4px] pl-[5px] py-[15px]">
-        <div className="flex items-center flex-grow gap-8">
+      <div className=" w-full flex bg-white items-center gap-[31px] pr-[4px]  py-[15px]">
+        <div className="flex items-center flex-grow gap-8 pl-2">
           <div className="block mnb:hidden" onClick={() => {
             setView(!view)
           }}>
@@ -137,11 +137,15 @@ const Navbar = () => {
               />
             </div>
           </Link>
-          <div className="flex text-dark-blue font-[700] hover:bg-blue-50 hover:cursor-pointer text-[14px] rounded-2xl pt-[9px] pb-[8px] border pr-[25px] pl-[14px]">
-            <img
-              className="inline mr-2"
-              src="/icons/global.svg" />
-            <span>Global</span>
+          <div className="flex items-center justify-center text-dark-blue font-[700] hover:bg-blue-50 hover:cursor-pointer text-[14px] rounded-2xl pt-[9px] pb-[8px] border pr-[18px] pl-[18px]">
+            <div>
+              <img
+                className="mr-2"
+                src="/icons/global.svg" />
+            </div>
+            <div>
+              <span>Global</span>
+            </div>
           </div>
         </div>
         <div className={`${!searchInput ? "flex-grow" : ""} hidden mnb:flex`}>
@@ -152,8 +156,8 @@ const Navbar = () => {
                   setSearchInput(false);
                 }} className="hover:cursor-pointer">
                   <img
-                    className="inline mr-2 hover:cursor-pointer h-4 w-4"
-                    src="/icons/search2.svg" />
+                    className="stroke-white text-white inline mr-2 hover:cursor-pointer h-4 w-4"
+                    src="/icons/search.svg" />
                   <span>Search</span>
                 </div>
                 <div>
@@ -200,9 +204,9 @@ const Navbar = () => {
                 <div className="flex-grow w-full ">
                   <input
                     placeholder="Search ..."
-                    className=" min-w-full placeholder-faint-purple p-1 border-2 rounded-xl outline-light-purple" />
+                    className=" min-w-full placeholder-faint-purple px-4 py-1  border-2 rounded-xl outline-light-purple" />
                 </div>
-                <div className="bg-light-purple p-1 rounded hover:cursor-pointer">
+                <div className="bg-light-purple  rounded hover:cursor-pointer w-[28px] h-[28px] p-1">
                   <img
                     alt="search"
                     src="/icons/search2.svg"

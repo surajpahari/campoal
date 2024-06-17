@@ -20,19 +20,22 @@ const VoiceSection = () => {
             everyone speaks out about the problems of society and acts            together, the world will become a better place.
           </div>
         </div>
-        <div className="mb-[40px] md:mb-[122px] w-full">
-
-          <div className="w-full">
-            <img src="/images/voice.jpeg" alt="Voice" className="object-cover" />
+        <div className=" flex items-center justify-center mb-[40px] md:mb-[122px] w-full">
+          <div>
+            {/**/}
+            {/* <div className="w-full"> */}
+            {/*   <img src="/images/voice.jpeg" alt="Voice" className="object-cover h-[383px] w-[1128]" /> */}
+            {/* </div> */}
+            <Image
+              className="rounded-lg"
+              src="/images/voice.svg"
+              height={383}
+              width={1128}
+              object-fit="cover"
+              priority="true"
+              alt="Voice"
+            />
           </div>
-          {/*   <Image */}
-          {/*     src="/images/voice.jpeg" */}
-          {/*     height={100} */}
-          {/*     width={1128} */}
-          {/*     object-fit="cover" */}
-          {/*     priority="true" */}
-          {/*     alt="Voice" */}
-          {/*   /> */}
 
         </div>
       </div>
