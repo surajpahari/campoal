@@ -25,6 +25,7 @@ To set up and run this project locally, follow these steps:
 3. **Run the development server**
    ```bash
    npm run dev
+After launching the application, you can access it at http://localhost:3000 on your preferred web browser.
 
 ## An Overview of Code Structure
 
