@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import { usePathname } from 'next/navigation'
+import GlobalButton from "./GlobalButton";
 import Link from 'next/link'
 
 const Hamburger = () => {
@@ -137,16 +138,7 @@ const Navbar = () => {
               />
             </div>
           </Link>
-          <div className="flex items-center justify-center text-dark-blue font-[700] hover:bg-blue-50 hover:cursor-pointer text-[14px] rounded-2xl pt-[9px] pb-[8px] border pr-[18px] pl-[18px]">
-            <div>
-              <img
-                className="mr-2"
-                src="/icons/global.svg" />
-            </div>
-            <div>
-              <span>Global</span>
-            </div>
-          </div>
+          <GlobalButton />
         </div>
         <div className={`${!searchInput ? "flex-grow" : ""} hidden mnb:flex`}>
           {
