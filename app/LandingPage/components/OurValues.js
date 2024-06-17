@@ -1,6 +1,5 @@
 const ValueCard = (CardData) => {
   return (
-
     <>
       <div className="">
         <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
@@ -41,12 +40,12 @@ const OurValues = () => {
   ]
   return (
     <>
-      <div className="flex justify-center bg-light_wave pt-[120px] pb-24 bg-no-repeat bg-cover">
-        <div className="text-light-purple px-4 md:px-40 sm:px-10">
-          <div className="text-[64px] font-[700] mb-10">
+      <div className="flex justify-center mnb:justify-start  xl:justify-center bg-light_wave pt-[120px] pb-24 bg-no-repeat bg-cover md:px-40 sm:px-10 px-2">
+        <div className="text-light-purple ">
+          <div className="text-[64px] font-[700] mb-10 snb:text-center">
             Our values
           </div>
-          <div className="flex  flex-col snb:flex-row justify-between gap-8">
+          <div className="flex  flex-col w-full  justify-center snb:flex-row  snb:items-center snb:justify-center gap-8">
             {values.map((value) => ValueCard(value))}
           </div>
         </div>
