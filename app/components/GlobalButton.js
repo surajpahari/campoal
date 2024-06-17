@@ -108,5 +108,4 @@ const GlobalButton = () => {
     </>
   );
 };
-
 export default GlobalButton;
