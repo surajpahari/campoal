@@ -75,7 +75,6 @@ const SideNav = ({ pathname }) => {
               </Link>
             </div>
             <div className=" justify-center mb-4 border-b-1 flex w-full">
-
               <Link
                 className={`link ${pathname === '/contact' ? 'text-light-purple' : ''}`}
                 href="/contact">
@@ -153,8 +152,8 @@ const Navbar = () => {
                   setSearchInput(false);
                 }} className="hover:cursor-pointer">
                   <img
-                    className="inline mr-2 hover:cursor-pointer"
-                    src="/icons/search.svg" />
+                    className="inline mr-2 hover:cursor-pointer h-4 w-4"
+                    src="/icons/search2.svg" />
                   <span>Search</span>
                 </div>
                 <div>
