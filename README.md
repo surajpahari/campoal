@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Campoal's About Page
+
+Frontend design implementation for the About Page of Campoal, The World Petition Platform. This project was created as an assignment to demonstrate the ability to develop and style a user-friendly, informative, and visually appealing web page for a web application.
+
+## Table of Contents
+- [Gettting Started](#getting-started)
+- [An Overview of Code Structure](#an-overview-of-code-structure)
+- [Libraries and tools used](#libraries-and-tools-used)
+- [Design Decisions](#design-decisions)
+
+
 
 ## Getting Started
+To set up and run this project locally, follow these steps:
 
-First, run the development server:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/surajpahari/campoal.git
+   cd campoal
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. **Install Dependencies**
+   ```bash
+   npx install
+   
+3. **Run the development server**
+   ```bash
+   npm run dev
+
+## An Overview of Code Structure
+
+```
+├── app
+│   ├── components(components for the layout)
+│   │   ├── footer.js
+│   │   ├── GlobalButton.js
+│   │   └── navbar.js
+│   ├── LandingPage
+│   │   ├── components
+│   │   │   ├── ContactSection.js
+│   │   │   ├── IntroSection.js
+│   │   │   ├── (.....other landing page component..)
+│   │   └── page.js
+│   ├── layout.js
+│   └── page.js
+├── public
+│   ├── backgrounds/
+│   ├── favicons/
+│   ├── footers/
+│   ├── frames/
+│   ├── icons/
+│   ├── images/
+│   ├── logo.svg
+│   ├── signs/
+│   ├── socials/
+├── README.md
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+└── tailwind.config.js
+
+
+Code structure simply follows the convention of netxjs app router.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Libraries and Tools used.
+1. [Next.js](https://nextjs.org/s.dev/)
+- A React framework  that abstracts and automatically configures tooling needed for React, like bundling, compiling, and more.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. [TailwindCSS](https://tailwindcss.com/)
+- Css framework to rapidly build modern website.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## Design Decisions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Decided to use next.js for its abstraction and tailwind for its utility-frist approach and responsive design.Other than these no major decisions were made.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
