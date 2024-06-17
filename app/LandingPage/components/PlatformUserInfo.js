@@ -2,7 +2,7 @@ import Image from "next/image"
 const PlatFormUserCard = (CardData) => {
   return (
     <>
-      <div className="flex flex-col bg-light-purple pb-[29px] pt-[54px] px-[21px] rounded-xl items-center justify-center text-white max-w-[270px]">
+      <div className="flex flex-col bg-light-purple pb-[29px] pt-[54px] px-[21px] rounded-xl items-center justify-center text-white max-w-[270px] hover:shadow-xl hover:translate-y-[2px]">
         <div className="mb-6">
           <div className="flex items-center justify-center bg-white rounded-full h-20 w-20">
             <Image
@@ -55,7 +55,7 @@ const PlatFormUserInfo = () => {
           <div className="text-faint-purple mb-4 text-lg md:text-xl lg:text-2xl text-center mnb:text-start">
             Who uses the platform?
           </div>
-          <div className="text-dark-blue text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-center mnb:text-start mnb:max-w-[500px] mx-auto mb-3 mnb:mb-0 md:mx-0">
+          <div className="text-dark-blue text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-center mnb:text-start mnb:max-w-[500px] mx-auto mb-3 mnb:mb-0 md:mx-0 min-[1735px]:w-[700px]">
             We believe that when everyone speaks out about the problems in society and takes action together, the world will become a better place.
           </div>
         </div>

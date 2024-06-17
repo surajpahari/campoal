@@ -51,7 +51,7 @@ const OurStory = () => {
               </div>
 
             </div>
-            <div className="flex flex-col space-y-6 md:space-y-0 mnb:translate-y-1/2">
+            <div className="flex flex-col space-y-6 md:space-y-0 mnb:translate-y-1/2 min-[1735px]:translate-y-0">
               <div className="mb-6 min-w-[270px]">
                 <Image
                   className="rounded-md"

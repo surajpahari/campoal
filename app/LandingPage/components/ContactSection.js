@@ -1,6 +1,6 @@
 const ContactSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center pt-[52px] pb-[100px] bg-blue-wave bg-no-repeat p-6">
+    <div className="flex flex-col items-center justify-center pt-[52px] pb-[100px] bg-blue-wave bg-no-repeat p-6 min-[1350px]:bg-cover">
       <div className="text-white p-2 text-[48px] font-[800] text-center py-[13px] w-full mb-[54px]">
         Feel free to contact us.
         <br />

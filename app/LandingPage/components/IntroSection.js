@@ -15,6 +15,7 @@ const IntroSection = () => {
           src="/frames/intro-banner.svg"
           width={771}
           height={540}
+          priority={true}
           className="w-full max-w-[771px] h-auto"
           alt="Intro Banner"
         />

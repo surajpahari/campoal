@@ -11,6 +11,7 @@ const VisionSection = () => {
         </div>
         <div>
           <Image
+            alt="vision banner"
             src="frames/vision-banner.svg"
             width={771}
             height={540}

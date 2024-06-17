@@ -8,6 +8,7 @@ const TeamCard = (Team) => {
           src={Team.image}
           width={235}
           height={273}
+          alt={Team.role}
         />
       </div>
       <div className="flex justify-center items-center -translate-y-1/2 ">

@@ -21,14 +21,19 @@ const VoiceSection = () => {
           </div>
         </div>
         <div className="mb-[40px] md:mb-[122px] w-full">
-          <Image
-            src="/images/voice.jpeg"
-            height={383}
-            width={1128}
-            layout="responsive"
-            objectFit="cover"
-            alt="Voice"
-          />
+
+          <div className="w-full">
+            <img src="/images/voice.jpeg" alt="Voice" className="object-cover" />
+          </div>
+          {/*   <Image */}
+          {/*     src="/images/voice.jpeg" */}
+          {/*     height={100} */}
+          {/*     width={1128} */}
+          {/*     object-fit="cover" */}
+          {/*     priority="true" */}
+          {/*     alt="Voice" */}
+          {/*   /> */}
+
         </div>
       </div>
     </div>
