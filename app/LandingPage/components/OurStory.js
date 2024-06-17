@@ -34,7 +34,7 @@ const OurStory = () => {
               <div className="mb-6 min-w-[270px]">
                 <Image
                   className="rounded-md"
-                  src="/images/service1.svg"
+                  src="images/service1.svg"
                   width={270}
                   height={405}
                   alt="Service 1"
@@ -43,7 +43,7 @@ const OurStory = () => {
               <div className="min-w-[270px]">
                 <Image
                   className="rounded-md"
-                  src="/images/service3.svg"
+                  src="images/service3.svg"
                   width={270}
                   height={270}
                   alt="Service 3"
@@ -55,7 +55,7 @@ const OurStory = () => {
               <div className="mb-6 min-w-[270px]">
                 <Image
                   className="rounded-md"
-                  src="/images/service2.svg"
+                  src="images/service2.svg"
                   width={270}
                   height={405}
                   alt="Service 2"
@@ -64,7 +64,7 @@ const OurStory = () => {
               <div className="min-w-[270px]">
                 <Image
                   className="rounded-md"
-                  src="/images/service4.svg"
+                  src="images/service4.svg"
                   width={270}
                   height={270}
                   alt="Service 4"

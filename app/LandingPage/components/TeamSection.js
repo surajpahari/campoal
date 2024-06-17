@@ -30,19 +30,19 @@ const TeamCard = (Team) => {
 const TeamSection = () => {
   const teams = [
     {
-      image: "/images/team1.svg",
+      image: "images/team1.svg",
       name: "Greg Rosenke",
       role: "Founder & CEO"
     },
     {
-      image: "/images/team2.svg",
+      image: "images/team2.svg",
       name: "Jenny Uebergerg",
       role: "Chief Marketing Officer"
 
 
     },
     {
-      image: "/images/team3.svg",
+      image: "images/team3.svg",
       name: "David Bole",
       role: "Chief Technology Officer"
 

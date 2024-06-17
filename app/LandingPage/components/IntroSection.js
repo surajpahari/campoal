@@ -12,7 +12,7 @@ const IntroSection = () => {
       </div>
       <div className="mt-6">
         <Image
-          src="/frames/intro-banner.svg"
+          src="frames/intro-banner.svg"
           width={771}
           height={540}
           priority={true}

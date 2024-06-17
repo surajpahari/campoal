@@ -28,7 +28,7 @@ const VoiceSection = () => {
             {/* </div> */}
             <Image
               className="rounded-lg"
-              src="/images/voice.svg"
+              src="images/voice.svg"
               height={383}
               width={1128}
               object-fit="cover"

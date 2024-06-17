@@ -25,22 +25,22 @@ const Footer = () => {
                 <div className="flex items-center justify-center mft:items-start mft:justify-start gap-4">
                   <div>
                     <img
-                      src="/footers/footer1.svg"
+                      src="footers/footer1.svg"
                     />
                   </div>
                   <div>
                     <img
-                      src="/footers/stripe.svg"
+                      src="footers/stripe.svg"
                     />
                   </div>
                   <div>
                     <img
-                      src="/footers/paypal.svg"
+                      src="footers/paypal.svg"
                     />
                   </div>
                   <div>
                     <img
-                      src="/footers/norton.svg"
+                      src="footers/norton.svg"
                     />
                   </div>
                 </div>
@@ -104,7 +104,7 @@ const Footer = () => {
             <div>
               <a className="cursor-pointer" href="https://www.facebook.com/" target="_blank">
                 <Image
-                  src="/socials/facebook.svg"
+                  src="socials/facebook.svg"
                   height={28}
                   width={28}
                   alt="facebook"
@@ -114,7 +114,7 @@ const Footer = () => {
             <div>
               <a className="cursor-pointer" href="https://www.x.com/" target="_blank">
                 <Image
-                  src="/socials/X.svg"
+                  src="socials/X.svg"
                   height={28}
                   width={28}
                   alt="X"
@@ -124,7 +124,7 @@ const Footer = () => {
             <div>
               <a className="cursor-pointer" href="https://www.youtube.com/" target="_blank">
                 <Image
-                  src="/socials/youtube.svg"
+                  src="socials/youtube.svg"
                   height={28}
                   width={28}
                   alt="youtube"
@@ -134,7 +134,7 @@ const Footer = () => {
             <div>
               <a className="cursor-pointer" href="https://www.medium.com/" target="_blank">
                 <Image
-                  src="/socials/medium.svg"
+                  src="socials/medium.svg"
                   height={28}
                   width={28}
                   alt="medium"

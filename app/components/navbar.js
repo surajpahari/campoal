@@ -25,7 +25,7 @@ const SideNav = ({ pathname }) => {
               <input placeholder="Search" className="max-w-[500px] placeholder-dark-purple p-2 size-lg border-2 rounded-xl outline-light-purple" />
               <img
                 className="inline ml-2 bg-light-purple p-2 rounded"
-                src="/icons/search2.svg" />
+                src="icons/search2.svg" />
             </div>
             <div className="hover:cursor-pointer block snb:hidden px-6 pt-2.5 pb-[9px] bg-light-purple rounded-xl text-white text-[16px] mb-4">
               <img className="inline mr-2" src="/icons/edit.svg" />
@@ -134,7 +134,7 @@ const Navbar = () => {
           <Link href="/">
             <div className="gap-8">
               <img
-                src="/logo.svg"
+                src="logo.svg"
               />
             </div>
           </Link>
@@ -149,7 +149,7 @@ const Navbar = () => {
                 }} className="hover:cursor-pointer">
                   <img
                     className="stroke-white text-white inline mr-2 hover:cursor-pointer h-4 w-4"
-                    src="/icons/search.svg" />
+                    src="icons/search.svg" />
                   <span>Search</span>
                 </div>
                 <div>
@@ -201,7 +201,7 @@ const Navbar = () => {
                 <div className="bg-light-purple  rounded hover:cursor-pointer w-[28px] h-[28px] p-1">
                   <img
                     alt="search"
-                    src="/icons/search2.svg"
+                    src="icons/search2.svg"
                   />
                 </div>
                 <div onClick={() => {
@@ -211,7 +211,7 @@ const Navbar = () => {
                 >
                   <img
                     alt="search"
-                    src="/icons/close.svg"
+                    src="icons/close.svg"
                   />
                 </div>
               </div>
@@ -221,7 +221,7 @@ const Navbar = () => {
           <div className="hover:cursor-pointer px-6 pt-2.5 pb-[9px] bg-light-purple rounded-xl">
             <img
               className="inline mr-2"
-              src="/icons/edit.svg" />
+              src="icons/edit.svg" />
             <span>
               Start a Campaigns
             </span>

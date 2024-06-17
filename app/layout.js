@@ -9,9 +9,9 @@ export const metadata = {
   title: "Campoal",
   description: "",
   icons: {
-    icon: ["/favicons/favicon.ico?v=4"],
-    apple: ["/favicons/apple-touch-icon.png?v=4"],
-    shortcut: ["/favicons/apple-touch-icon.png"]
+    icon: ["favicons/favicon.ico?v=4"],
+    apple: ["favicons/apple-touch-icon.png?v=4"],
+    shortcut: ["favicons/apple-touch-icon.png"]
   }
 };
 
