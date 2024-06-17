@@ -40,7 +40,7 @@ const OurValues = () => {
   ]
   return (
     <>
-      <div className="flex justify-center mnb:justify-start  xl:justify-center bg-light_wave pt-[120px] pb-24 bg-no-repeat bg-cover md:px-40 sm:px-10 px-2">
+      <div className="flex justify-center mnb:justify-start  xl:justify-center bg-[url('background/about_us_backgroud.svg')]  pt-[120px] pb-24 bg-no-repeat bg-cover md:px-40 sm:px-10 px-2">
         <div className="text-light-purple ">
           <div className="text-[64px] font-[700] mb-10 snb:text-center">
             Our values

@@ -55,7 +55,7 @@ import { useState } from "react";
 
 const GlobalButton = () => {
   const [selected, setSelected] = useState("Global");
-  const [selectedFlag, setSelectedFlag] = useState("/icons/global.svg");
+  const [selectedFlag, setSelectedFlag] = useState("icons/global.svg");
   const [viewOption, setViewOption] = useState(false);
 
   const data = [
