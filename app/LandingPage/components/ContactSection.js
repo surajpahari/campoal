@@ -51,7 +51,7 @@ const ContactSection = () => {
             Message
           </div>
           <div>
-            <textarea className="h-42 py-[13px] w-full border border-1 rounded-lg p-1 outline-none" />
+            <textarea rows={10} className="py-[13px] w-full border border-1 rounded-lg p-1 outline-none" />
           </div>
         </div>
         <div className="bg-light-purple flex items-center py-[13px] justify-center rounded-lg">
