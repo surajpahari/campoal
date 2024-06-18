@@ -1,3 +1,4 @@
+import background from '../../assets/about_us_background.png'
 const ValueCard = (CardData) => {
   return (
     <>
@@ -18,6 +19,7 @@ const ValueCard = (CardData) => {
   );
 }
 const OurValues = () => {
+
   const values = [
     {
       no: "01",
@@ -40,9 +42,12 @@ const OurValues = () => {
   ]
   return (
     <>
-      <div className="flex justify-center mnb:justify-start  xl:justify-center bg-light_wave  pt-[120px] pb-24 bg-no-repeat bg-cover md:px-40 sm:px-10 px-2">
+      <div
+        style={{ backgroundImage: `url(${background.src})` }}
+        className="flex justify-center mnb:justify-start  xl:justify-center
+         pt-[120px] pb-24 bg-no-repeat bg-cover md:px-40 sm:px-10 px-2">
         <div className="text-light-purple ">
-          <div className="text-[64px] font-[700] mb-10 snb:text-center">
+          <div className="text-[64px] font-[700] mb-10 text-center snb:text-start">
             Our values
           </div>
           <div className="flex  flex-col w-full  justify-center snb:flex-row  snb:items-center snb:justify-center gap-8">

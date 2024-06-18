@@ -1,6 +1,9 @@
+import background from "../../../public/backgrounds/contact_background.png";
 const ContactSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center pt-[52px] pb-[100px] bg-blue-wave bg-repeat-x p-6 ">
+    <div
+      style={{ backgroundImage: `url(${background.src})` }}
+      className="flex flex-col items-center justify-center pt-[52px] pb-[100px] bg-repeat-x p-6 ">
       <div className="text-white p-2 text-[48px] font-[700] text-center py-[13px] w-full mb-[54px]">
         Feel free to contact us.
         <br />

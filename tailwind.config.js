@@ -30,8 +30,6 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "blue-wave": "url('/backgrounds/contact_background.png')",
-        "light_wave": "url('/backgrounds/about_us_background.png')",
       },
     },
   },
